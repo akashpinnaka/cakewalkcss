@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+
+/* Takes of text-decoration to anhor tag */
+a {
+  text-decoration: none;
+}
+
+
+/* Removes list-style and sets margin-left to ul */
+ul {
+  list-style: none;
+  margin-left: 1em;
+}
+
+
+/* Sets font-size of all level heading tags to 400 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 400;
+}
