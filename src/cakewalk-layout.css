@@ -1,0 +1,205 @@
+/* ======================================================================== */
+/* Styles for CSS layouts */
+/* ======================================================================== */
+
+
+/* Styles for container */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    max-width: 760px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 98%;
+  }
+}
+/* End of styles for container */
+
+
+
+/* Styles for widths */
+.width-5-percent {
+  width: 5%;
+}
+
+.width-10-percent {
+  width: 10%;
+}
+
+.width-12_5-percent {
+  width: 12.5%;
+}
+
+.width-16_67-percent {
+  width: 16.67%;
+}
+
+.width-20-percent {
+  width: 20%;
+}
+
+.width-25-perent {
+  width: 25%;
+}
+
+.width-33_33-percent {
+  width: 33.33%;
+}
+
+.width-40-percent {
+  width: 40%;
+}
+
+.width-50-percent {
+  width: 50%;
+}
+
+.width-66_67-percent {
+  width: 66.67%;
+}
+
+.width-75-percent {
+  width: 75%;
+}
+
+.width-80-percent {
+  width: 80%;
+}
+
+.width-90-percent {
+  width: 90%;
+}
+
+.width-95-perent {
+  width: 95%;
+}
+/* End of styles for widths */
+
+
+
+/* Styles for floating elements */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float-right;
+}
+
+.no-float {
+  float: none;
+}
+/* End of styles for floating elements */
+
+
+
+/* Styles for clear fixing the floating elements */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+/* Styles for clear fixing the floating elements */
+
+
+
+/* Styles for positioning the element */
+.abs-pos {
+  position: absolute;
+}
+
+.rel-pos {
+  position: relative;
+}
+
+.fixed-pos {
+  position: fixed;
+}
+
+.static-pos {
+  position: static;
+}
+
+.sticky-pos {
+  position: sticky;
+}
+/* End of styles for positioning the element */
+
+
+
+/* Styles for Display property of element */
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.table {
+  display: table;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.no-display {
+  display: none;
+}
+/* Styles for Display property of element */
+
+
+
+/* Styles for Visibility property of elements */
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
