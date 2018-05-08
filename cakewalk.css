@@ -348,10 +348,11 @@ template {
 
 
 
-/* ====================================================================================== */
-/* Styles related to Cakewalk Reset.                                                      */
-/* Github: https://github.com/akashpinnaka/cakewalk-css/blob/1.0/src/cakewalk-reset.css   */                                        */
-/* ====================================================================================== */
+/**
+ * Styles related to Cakewalk Reset.
+ * Github: https://github.com/akashpinnaka/cakewalk-css/blob/1.0/src/cakewalk-reset.css
+ */
+
 * {
   margin: 0;
   padding: 0;
@@ -380,17 +381,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 400;
+  font-weight: 400;
 }
 
 
 
 
 
-/* ====================================================================================== */
-/* Styles related to Cakewalk Layout.                                                     */
-/* Github: https://github.com/akashpinnaka/cakewalk-css/blob/1.0/src/cakewalk-layout.css  */                                        */
-/* ====================================================================================== */
+/**
+ * Styles related to Cakewalk Layout.                                                     
+ * Github: https://github.com/akashpinnaka/cakewalk-css/blob/1.0/src/cakewalk-layout.css
+ */
 
 
 /* Styles for container */
@@ -498,7 +499,7 @@ h6 {
 }
 
 .float-right {
-  float-right;
+  float: right;
 }
 
 .no-float {
@@ -598,10 +599,10 @@ h6 {
 
 
 
-/* ====================================================================================== */
-/* Styles related to Cakewalk flexbox.                                                    */
-/* Github: https://github.com/akashpinnaka/cakewalk-css/blob/1.0/src/cakewalk-flexbox.css */                                        */
-/* ====================================================================================== */
+/**
+ * Styles related to Cakewalk flexbox.                                                    
+ * Github: https://github.com/akashpinnaka/cakewalk-css/blob/1.0/src/cakewalk-flexbox.css
+*/
 
 /* Flex direction */
 .flex-row {

@@ -108,7 +108,7 @@
 }
 
 .float-right {
-  float-right;
+  float: right;
 }
 
 .no-float {
