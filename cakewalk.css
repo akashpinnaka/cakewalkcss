@@ -388,6 +388,9 @@ h6 {
  * Github: https://github.com/akashpinnaka/cakewalk-css/blob/1.0/src/cakewalk-layout.css
  */
 
+.centered {
+  margin: 0 auto;
+}
 
 /* Styles for container */
 .container {

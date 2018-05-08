@@ -3,6 +3,10 @@
 /* ======================================================================== */
 
 
+.centered {
+  margin: 0 auto;
+}
+
 /* Styles for container */
 .container {
   width: 100%;
